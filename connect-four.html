@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>connect four</title>
+  </head>
+  <body>
+    <style>
+      #canvas {
+        border: 1px solid;
+        height: 120px;
+        width: 140px;
+        display: flex;
+        flex-wrap: wrap;
+      }
+
+      #canvas div {
+        height: 20px;
+        width: 20px;
+      }
+
+      .player-one {
+        background-color: red;
+        border-radius: 10px;
+      }
+
+      .player-two {
+        background-color: blue;
+        border-radius: 10px;
+      }
+    </style>
+    <h3>The current Player is: Player <span id="current-player">1</span></h3>
+    <h3>the winner is: <span id="result"></span></h3>
+
+    <div id="canvas">
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div class="taken"></div>
+      <div class="taken"></div>
+      <div class="taken"></div>
+      <div class="taken"></div>
+      <div class="taken"></div>
+      <div class="taken"></div>
+      <div class="taken"></div>
+    </div>
+  </body>
+  <script src="connect-four.js"></script>
+</html>
